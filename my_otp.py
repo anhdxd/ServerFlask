@@ -20,8 +20,8 @@ def send_text_phone(text, phone_number):
     return
     # end test telegram
 
-    account_sid = "AC7865881bda54042f0e059a61d8137c75"
-    auth_token = "e7cd64cc45dc300b9de2e96dbb2d16c4"
+    account_sid = ""
+    auth_token = ""
     client = Client(account_sid, auth_token)
     message = client.messages.create(
       body=text,
