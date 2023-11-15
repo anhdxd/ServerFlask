@@ -1,0 +1,8 @@
+Flask
+Flask-SQLAlchemy
+pycryptodome
+pycryptodomex
+websocket
+python-telegram-bot==13.15
+twilio
+flask_migrate
